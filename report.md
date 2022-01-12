@@ -30,9 +30,14 @@ Maybe, there was a better search domain in the hyperparameter space. It was diff
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|?|?|?|?|
-|add_features|?|?|?|?|
-|hpo|?|?|?|?|
+|initial|Default value|Default value|Default value|1.39306|
+|add_features|Default value|Default value|Default value|0.48152|
+|hpo|100|100|25|0.48591|
+
+model 	gbm_options:num_boost_round 	xgb_options:n_estimators 	nn_options:num_epochs 	score
+0 	initial 	Default value 	Default value 	Default value 	1.39306
+1 	add_features 	Default value 	Default value 	Default value 	0.48152
+2 	hpo 	100 	100 	25 	0.48591
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
