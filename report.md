@@ -52,7 +52,9 @@ Tuning hyperparameters may be another improvement, but it appears to be not so e
 ### Correlation 
 We can see that the features "registered" and "count" are highly correlated (0.9709). Certain ML models don't behave cery well with 
 redundant data (for example, neural networks, with an effect of amplifying local minimas). Maybe we should remove one of these features.
+
 ![heatmap_correlation matrix.jpg](img/heatmap_correlation matrix.jpg)
+
 ![correlation matrix.jpg](img/correlation matrix.jpg)
 
 
