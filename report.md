@@ -36,13 +36,9 @@ Maybe, there was a better search domain in the hyperparameter space. It was diff
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-TODO: Replace the image below with your own.
-
 ![model_train_score.png](img/model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
-
-TODO: Replace the image below with your own.
 
 ![model_test_score.png](img/model_test_score.png)
 
@@ -50,3 +46,13 @@ TODO: Replace the image below with your own.
 Exploratory data analysis is manadatory to improve models performance. Perhaps it is a state of the art, but some common and proven recipes 
 may lead to better results. Moreover, knowing the domain of exploration or asking experts to get more relevant information are also good practices.
 Tuning hyperparameters may be another improvement, but it appears to be not so efficient as a good exploration, transformation and exploitation of data.
+
+
+## Standout suggestions
+### Correlation 
+We can see that the features "registered" and "count" are highly correlated (0.9709). Certain ML models don't behave cery well with 
+redundant data (for example, neural networks, with an effect of amplifying local minimas). Maybe we should remove one of these features.
+![heatmap_correlation matrix.jpg](img/heatmap_correlation matrix.jpg)
+![correlation matrix.jpg](img/correlation matrix.jpg)
+
+
